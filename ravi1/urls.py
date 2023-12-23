@@ -23,7 +23,7 @@ urlpatterns = [
     path('prog1/',view.hompage),
     path('database/',view.value),
 
-    path('page2/', view.page2, name='page2'),
+    path('index/', view.index, name='index'),
 
     path('page4/', view.page4, name='page4'),
     path('page5/', view.page5, name='page5'),
