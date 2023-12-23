@@ -14,8 +14,8 @@ def value(request):
     return render(request,"index.html")
 
 
-def page2(request):
-    return render(request, 'page2.html')
+def index(request):
+    return render(request, 'index.html')
 
 
 
